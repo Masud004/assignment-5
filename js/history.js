@@ -5,6 +5,7 @@ document.getElementById("history-btn").addEventListener("click", function () {
     document.getElementById("history-section").classList.remove("hidden");
   });
   
+  
   document.getElementById("donation-btn").addEventListener("click", function () {
     const historyBtn = document.getElementById("history-btn").classList.remove("bg-[#b4f461]");
     const donateBtn = document.getElementById("donation-btn").classList.add("bg-[#b4f461]");
